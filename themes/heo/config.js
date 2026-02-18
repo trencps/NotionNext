@@ -9,7 +9,8 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '欢迎来到我的港湾', url: 'https://nt.665669.xyz' },
-    { title: '可以在这里找到一些好玩的开源项目。', url: 'https://nt.665669.xyz/category/%E5%BC%80%E6%BA%90%E5%88%86%E4%BA%AB' }
+    { title: '可以在这里找到一些好玩的开源项目', url: 'https://nt.665669.xyz/category/%E5%BC%80%E6%BA%90%E5%88%86%E4%BA%AB' },
+    { title: '这里有AI创作的视频壁纸', url: 'https://nt.665669.xyz/category/AI%E5%88%9B%E4%BD%9C' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -20,20 +21,20 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
+  HEO_HERO_TITLE_3: 'TRNote',
   HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_5: 'AI创作',
+  HEO_HERO_TITLE_LINK: 'https://nt.665669.xyz',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/AI' },
+  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/github' },
+  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/cloudflare' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
+  HEO_HERO_RECOMMEND_POST_TAG: '',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
